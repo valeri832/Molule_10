@@ -32,7 +32,6 @@ bk = Bank()
 th1 = threading.Thread(target=bk.deposit)
 th2 = threading.Thread(target=bk.take)
 
-# Запуск потоков
 th1.start()
 th2.start()
 
